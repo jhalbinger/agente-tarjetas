@@ -9,7 +9,7 @@ def responder():
 
     # Aquí podés poner lógica específica si querés personalizar la respuesta
     return jsonify({
-        "respuesta": f"El agente de tarjetas recibió la consulta: '{consulta_usuario}' y está trabajando en una respuesta especializada."
+        "respuesta": f"Respuesta desde el agente de tarjetas para: '{consulta_usuario}'."
     })
 
 if __name__ == '__main__':
